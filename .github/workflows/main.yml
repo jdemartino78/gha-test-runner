@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: rbob86/gha-test@main
+        uses: rbob86/lookml-linter@ericfixessomestuff
         with:
-          testinput: "MY NAME IS KID ROCK"
-      - name: Get the output time
-        run: echo "${{ steps.hello.outputs.my-output }}"
+          testinput: "./"
+#       - name: Get the output time
+#         run: echo "${{ steps.hello.outputs.my-output }}"
