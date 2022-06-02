@@ -9,7 +9,7 @@ jobs:
         id: hello
         uses: rbob86/lookml-linter@ericfixessomestuff
         with:
-          testinput: "./"
+          lookMlProject: "./"
 #       - name: Get the output time
 #         run: echo "${{ steps.hello.outputs.my-output }}"
 
