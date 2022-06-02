@@ -12,3 +12,5 @@ jobs:
           testinput: "./"
 #       - name: Get the output time
 #         run: echo "${{ steps.hello.outputs.my-output }}"
+
+
