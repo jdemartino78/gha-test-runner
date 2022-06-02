@@ -11,8 +11,8 @@ jobs:
         id: hello
         uses: rbob86/lookml-linter@ericfixessomestuff
         with:
-          lookMlProject: "./"
-          configFile: "${{ github.workspace }}/config.example.yaml"
+          lookMlProject: ./
+          configFile: ${{ github.workspace }}/config.example.yaml
 #       - name: Get the output time
 #         run: echo "${{ steps.hello.outputs.my-output }}"
 
