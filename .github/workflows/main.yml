@@ -10,6 +10,7 @@ jobs:
         uses: rbob86/lookml-linter@ericfixessomestuff
         with:
           lookMlProject: "./"
+          configFile: "config.example.yaml"
 #       - name: Get the output time
 #         run: echo "${{ steps.hello.outputs.my-output }}"
 
