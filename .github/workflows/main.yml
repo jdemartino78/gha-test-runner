@@ -10,7 +10,7 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: rbob86/lookml-linter@main
-        with:
+#        with:
 #           lookMlProject: ./
 #           configFile: ${{ github.workspace }}/config.example.yaml
 #       - name: Get the output time
